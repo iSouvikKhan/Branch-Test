@@ -17,6 +17,8 @@ To see all available branches --> git branch or git branch --list
 After shifting to anothe branch all commands remain same except the push command.
 When you say in a branch named br1 and you want to push changes in br1 branch only, in this case push command will be --> git push origin br1
 
+----------------------------------------------------------------------------------
+
 To merge a branch with another branch,-
     Let's say u have 2 branches br1 and br2.
     You are presently in br3 branch (say)
@@ -29,6 +31,8 @@ Wait wait, this much is not enough. After every merge "push" is necessary
 Without this you can't see the changes in branch br2
 
 To complete merge process final command --> git push origin br2
+
+----------------------------------------------------------------------------------
 
 To delete branch from local repo only --> git branch -d branch_name ( it deletes branch from local repository only )
 
