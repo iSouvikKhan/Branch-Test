@@ -44,7 +44,7 @@ To delete a branch from remote repo ( GitHub ) --> git push origin --delete bran
 
 To delete branch forcefully --> git branch -D branch_name
 
-NOTE : To delete multiple branches in one go then the delimiter is space, followed by branch name.
+NOTE : To delete multiple branches in one go then the delimiter is space, followed by branch name ( no commas are allowed )
 
 ----------------------------------------------------------------------------------
 
