@@ -35,8 +35,12 @@ To complete merge process final command --> git push origin br2
 ----------------------------------------------------------------------------------
 
 To delete branch from local repo ( your PC ) only --> git branch -d branch_name ( it deletes branch from local repository only )
+                                                  --> if you only do this, then you can find the deleted branch in remote repo ( if it has been pushed )
+                                                  --> The point is you need to delet it from both the places. Local and Remote.
 
 To delete a branch from remote repo ( GitHub ) --> git push origin --delete branch_name ( otherwise it will remain in the remote repository )
+                                               --> if you only do this, then you can find the deleted branch in local repo
+                                               --> The point is you need to delet it from both the places. Local and Remote.
 
 To delete branch forcefully --> git branch -D branch_name
 
