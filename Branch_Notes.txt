@@ -62,3 +62,25 @@ you need to shift to another branch to delete branch br1.
 git remote --> The git remote command is a helpful command in any developer's workflow. The main function of this command is,
            --> creating, viewing, or deleting connections between repositories
 
+----------------------------------------------------------------------------------
+
+To clone a specific branch --> git clone -b branch_name git_url
+
+----------------------------------------------------------------------------------
+
+To rename the master branch --> git branch -M new_name ( happens locally )
+                            --> git push origin new_name ( pushing all content to the newly renamed branch )
+                            --> In remote repo you will find 2 branches, master and newly_renamed_branch.
+                            --> You can make the newly_renamed branch as default branch, only after this you can delete the master branch from the remote repo
+                            --> To delete branch from remote repo is mentioned above
+                            --> see this video " https://youtu.be/9O4Di2s-BDQ "
+
+NOTE : While creating new repo, if you select to have readme file then by default your default branch will be 'main' branch.
+
+----------------------------------------------------------------------------------
+
+
+
+
+
+
