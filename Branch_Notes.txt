@@ -57,4 +57,8 @@ in this case u may need to delete the branch forcefully
 One thing to remember --> if you are in branch br1 and you also want to delete the same branch br1, then
 you need to shift to another branch to delete branch br1.
 
+----------------------------------------------------------------------------------
+
+git remote --> The git remote command is a helpful command in any developer's workflow. The main function of this command is,
+           --> creating, viewing, or deleting connections between repositories
 
