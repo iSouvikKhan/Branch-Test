@@ -28,6 +28,7 @@ To complete merge process final command --> git push origin br2
 
 To delete branch --> git branch -d branch_name ( it deletes branch from local repository only )
 
-NOTE : If you create a branch and don't push any content in it, it remains in the local repository ( your pc ) only
-        The moment u push some content in newly created branch, it becomes visible in remote repository ( GitHub )
+NOTE : If you create a branch and don't "push", it remains in the local repository ( your pc ) only
+        The moment u push with or without content, it becomes visible in remote repository ( GitHub )
+        After creating the branch if you only push "git push origin new_branch", it copies all the content from the master branch
 
