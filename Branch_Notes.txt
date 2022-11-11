@@ -1,12 +1,16 @@
 To come out of the VIM editor --> escape + : + wq + enter
 
 To create new branch --> git branch branch_name ( it doesn't shift the control to thr newly created branch )
+                     --> it doesn't push the newly created branch to remote repository.
+                     --> You have to do it by "git push origin newly_created_branch_name"
 
 To shift to another branch --> git checkout branch_name
 
 To create multiple branches in 1 go --> git branch branch_name1 branch_name2 branch_name3 ( this would create 3 branches. no commas are allowed between names )
 
 To create branch and shift to that branch --> git checkout -b branch_name
+                                          --> it doesn't push the newly created branch to remote repository.
+                                          --> You have to do it by "git push origin newly_created_branch_name"
 
 To see all available branches --> git branch or git branch --list
 
