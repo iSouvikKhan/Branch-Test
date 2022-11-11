@@ -30,9 +30,19 @@ Without this you can't see the changes in branch br2
 
 To complete merge process final command --> git push origin br2
 
-To delete branch --> git branch -d branch_name ( it deletes branch from local repository only )
+To delete branch from local repo only --> git branch -d branch_name ( it deletes branch from local repository only )
+
+To delete a branch from remote repo --> git push origin --delete branch_name ( otherwise it will remain in the remote repository )
+
+To delete branch forcefully --> git branch -D branch_name
 
 NOTE : If you create a branch and don't "push", it remains in the local repository ( your pc ) only
-        The moment u push with or without content, it becomes visible in remote repository ( GitHub )
-        After creating the branch if you only push "git push origin new_branch", it copies all the content from the master branch
+       The moment u push with or without content, it becomes visible in remote repository ( GitHub )
+       After creating the branch if you only push "git push origin new_branch", it copies all the content from the latest modified branch.
+
+When u create a new branch and stage some content in it, like --> git add . --> git commit -m "..." --> And now you wish to delete it,
+in this case u may need to delete the branch forcefully
+One thing to remember --> if you are in branch br1 and you also want to delete the same branch br1, then
+you need to shift to another branch to delete branch br1.
+
 
