@@ -90,6 +90,8 @@ git fetch --> " git fetch " --> from remote repo --> to staging area.
           --> this command updates the code present in staging area only.
           --> fetched content won't be reflected in local repo
           
+NOTE : No branch name is required, because you are coping the content from the remote repo to the presently working/active branch only.
+          
 ----------------------------------------------------------------------------------
 
 
