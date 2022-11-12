@@ -79,6 +79,20 @@ NOTE : While creating new repo, if you select to have readme file then by defaul
 
 ----------------------------------------------------------------------------------
 
+git clone --> to bring the entire project from the remote repo to the local repo
+
+git pull --> You have already cloned a repo, some time later your team member makes a new commit in the remote repo.
+     --> In this case to save number of operations and time you should use " git pull ".
+     --> It will compare content present in remote and local repo, if it finds new content in remote repo then it updates the same in local repo.
+     --> " git pull " --> from remote repo --> to staging area --> then to local repo
+     
+git fetch --> " git fetch " --> from remote repo --> to staging area.
+          --> this command updates the code present in staging area only.
+          --> fetched content won't be reflected in local repo
+          
+----------------------------------------------------------------------------------
+
+
 
 
 
