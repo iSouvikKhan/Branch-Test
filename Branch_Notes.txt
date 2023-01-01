@@ -94,9 +94,14 @@ NOTE : No branch name is required, because you are coping the content from the r
           
 ----------------------------------------------------------------------------------
 
+To rename an existing branch from loacal as well as from remote
+        --> git checkout master
+        --> git branch -m old_branch_name new_branch_name ( it actually, creates a new branch with the new_branch_name and copies content from old_branch to new_branch ) ( in local level only )
+        --> git push origin new_branch_name ( updates the whole story in remote level )
 
+        - now u have 2 branches in local as well as in remote with different name but same content. So, deleting the old_branch_name becomes necessary
 
+        --> git push origin --delete old_branch_name ( now you are all done )
 
-
-
+----------------------------------------------------------------------------------
 
